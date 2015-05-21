@@ -1,0 +1,12 @@
+# Site settings
+title: HACKUBE Inc. | Hacking Reload
+email: andretestacc@gmail.com
+description: where hacking gets done
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://hackube.org/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+
+# Plugins

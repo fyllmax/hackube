@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="wrapper">
+
+    <a href="{{ site.baseurl }}/"><img class="site-logo" src='/images/logoBW.png'</a>
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+<!--         {% for page in site.pages limit:1 %}
+          {% if page.title %}
+          <a class="page-link {% if page.url == '/contact-us/' %}current{% endif %}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %} -->
+
+        <a class="page-link {% if page.url == '/contact-us/' %}current{% endif %}" href="{{site.baseurl}}/contact-us/">За Контакти</a>
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>

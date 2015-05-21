@@ -1,0 +1,83 @@
+---
+layout: default
+title: За Контакти
+permalink: /contact-us/
+---
+
+<div>
+
+ <br>
+ <h2 style="text-align: center">Имате въпроси, предложения, мнения или идеи. Пишете ни!</h2>
+ <br>
+ <br>
+    <form id="subs-form" action="http://formspree.io/{{site.email}}" method="POST">
+        <label>Вашите имена:
+        <input class="subs-input" type="text" name="name">
+        </label>
+
+        <label>Емайл:
+        <input class="subs-input" type="email" name="_replyto">
+        </label>
+
+        <label>Текст:
+        <textarea class="subs-text" rows="10" cols="50" name="body"></textarea>
+        </label>
+
+        <input class="subs-input" id="ButtonSubmit" type="submit" value="Изпрати">
+
+        <input type="hidden" name="_next" value="/thanks" />
+
+    </form>
+
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #subs-form {
+        /*border: 1px solid black;*/
+        padding-right: 10px;
+        padding-left: 10px;
+        overflow: hidden;
+    }
+
+    .subs-input {
+        border: 1px solid #fcbd16;
+        display: block;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 40px;
+        width: 100%;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    .subs-text {
+        border: 1px solid #fcbd16;
+        display: block;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /*height: 40px;*/
+        width: 100%;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    #ButtonSubmit {
+        width: 100%;
+        background-color: #55d737;
+        color: white;
+        widows: 100%;
+        border: none
+    }
+
+    #ButtonSubmit:hover {
+        background: tomato;
+    }
+
+    </style>
+
+</div>
