@@ -1,0 +1,8 @@
+_site/
+.env
+.jekyll-assets-cache
+.jekyll-metadata
+.sass-cache
+log/*
+sitemap.xml
+sitemap.xml.gz
